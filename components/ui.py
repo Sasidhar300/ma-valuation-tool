@@ -19,11 +19,11 @@ def apply_custom_css(theme: str = "light"):
         secondary_text = "#4b5563"
     else:
         bg_color = "#0f172a"
-        text_color = "#e5e7eb"
+        text_color = "#f3f4f6"  # Brighter - was #e5e7eb
         card_bg = "#1e293b"
         header_color = "#60a5fa"
         subheader_color = "#3b82f6"
-        secondary_text = "#9ca3af"
+        secondary_text = "#d1d5db"  # Brighter - was #9ca3af
     
     st.markdown(f"""
         <style>
